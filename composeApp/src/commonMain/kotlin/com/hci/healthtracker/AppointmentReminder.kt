@@ -89,6 +89,7 @@ fun AppointmentReminder(onBack: () -> Unit) {
             Button(
                 onClick = {
                     // TODO: Save to SQLite and set alarm
+                    onBack
                 },
                 modifier = Modifier.fillMaxWidth()
             ) {
